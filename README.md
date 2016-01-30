@@ -7,7 +7,7 @@
 ## Demo
 [http://akhoury.github.io/pages/ractive-decorator-colorpicker](http://akhoury.github.io/pages/ractive-decorator-colorpicker/)
 
-## Usage
+## Template usage
 
 ```
 

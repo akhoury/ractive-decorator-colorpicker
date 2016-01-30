@@ -46,15 +46,12 @@
 
             var lastParams = $node.data('last_spectrum_params') || {};
             var newKeys = Object.keys(params);
-            var okToUpdate = false;
 
-            newKeys.some(function(nk) {
+            if (! newKeys.some(function(nk) {
                 if (params[nk] != lastParams[nk]) {
-                    okToUpdate = true;
                     return true;
                 }
-            });
-            if (!okToUpdate) {
+            })) {
                 return;
             }
 
