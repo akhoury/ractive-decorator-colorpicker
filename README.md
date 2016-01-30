@@ -1,6 +1,6 @@
 # ractive-decorator-colorpicker
 
-## dependencies
+## Dependencies
 * [jquery](https://jquery.com/)
 * [jquery.spectrum](https://github.com/bgrins/spectrum)
 
